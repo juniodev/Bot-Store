@@ -30,7 +30,7 @@ bot.on('text', async (ctx) => {
 			return ctx.reply(
 				'Sem resultados!',
 				{
-				//	parse_mode: 'MarkdownV2',
+					//	parse_mode: 'MarkdownV2',
 					reply_markup: {
 						inline_keyboard: [
 							[{
